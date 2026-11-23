@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="54" viewBox="0 0 900 54" role="img" aria-label="linguagens e ferramentas">
+  <title>linguagens e ferramentas</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#A78BFA" stop-opacity="0" />
+      <stop offset=".5" stop-color="#A78BFA" />
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0" />
+    </linearGradient>
+    <style>
+      .t { font: 600 22px ui-monospace, 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+      .in { animation: in .8s ease-out both; }
+      @keyframes in { from { opacity: 0; transform: translateX(-12px); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+  <g class="in">
+    <text x="2" y="30" class="t"><tspan fill="#A78BFA">// </tspan><tspan fill="#C9D1D9">linguagens e ferramentas</tspan></text>
+  </g>
+  <rect x="2" y="44" width="896" height="1" fill="#30363D" />
+  <rect y="43" width="160" height="3" rx="1.5" fill="url(#g)">
+    <animate attributeName="x" values="-160;900" dur="3.5s" repeatCount="indefinite" />
+  </rect>
+  <rect x="2" y="43" width="367" height="3" rx="1.5" fill="#A78BFA" opacity=".9">
+    <animate attributeName="width" values="0;367" dur=".9s" fill="freeze" />
+  </rect>
+</svg>
